@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px;
+	font-weight: normal;
+}
+
+.homePage {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-weight: normal;
+	box-shadow: 0 0 1rem #888;
+}
+
+.ver:HOVER {
+	opacity: .7;
+	cursor: pointer;
+}
+
+.ajax-status {
+	position: fixed;
+	top: 55px;
+	right: 10px;
+	width: 35px;
+	height: 35px
+}
+
+.ui-panelmenu .ui-panelmenu-header a {
+	text-decoration: none;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-default:hover {
+	font-size: 16px;
+	opacity: .9
+}
+
+
+.ui-dialog.ui-widget-content .ui-dialog-title {
+	font-size: 12px;
+}
+
+.many-checkbox td {
+	border-width: 0px !important;
+	padding: 0px !important;
+}
+
+.many-checkbox td label {
+	padding-right: 10px;
+}
